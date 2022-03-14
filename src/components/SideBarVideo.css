@@ -1,0 +1,28 @@
+.sideBarVideo {
+	display: flex;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+
+.sideBarVideo__text {
+	display: flex;
+	flex-direction: column;
+	margin-left: 8px;
+}
+
+.sideBarVideo > video {
+	width: 160px;
+	height: 100px;
+}
+
+.sideBarVideo__text > h3 {
+	margin: 4px 0px 0px 0px;
+	font-size: 14px;
+	color: #030303;
+}
+
+.sideBarVideo__text > p {
+	margin: 2px 0px 0px 0px;
+	font-size: 12px;
+	color: #606060;
+}

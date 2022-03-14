@@ -1,0 +1,54 @@
+.watchVideoCard {
+	flex: 0.65;
+	margin: 20px 0px 0px 40px;
+	background-color: #FDFEFE;
+
+}
+
+.watchVideoCard__video {
+	width:  100%;
+}
+
+.watchVideoCard__info {
+	padding-left: 2px;
+}
+
+.watchVideoCard__user {
+	display: flex;
+	align-items: center;
+}
+
+.watchVideoCard__buttonContainer {
+	
+}
+
+.watchVideoCard__tipButton {
+	border: none;
+	border-radius: 2px;
+	padding: 8px 16px;
+	margin-left: 10px;
+	background-color: #CC0000;
+	color: #fff;
+	font-weight: bold;
+}
+
+.watchVideoCard__user > p {
+	margin-left: 10px;
+	color: #030303;
+}
+
+.watchVideoCard__info > h3 {
+	margin: 10px 0px 0px 0px;
+	font-size: 18px;
+	color: #030303;
+}
+
+.watchVideoCard__text > p {
+	margin: 5px 0px 20px 0px;
+	font-size: 14px;
+	color:  #606060;
+}
+
+.watchVideoCard__info > hr {
+	border: 1px solid lightgray;
+}
